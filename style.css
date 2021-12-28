@@ -75,3 +75,56 @@ html,
         font-size: 40px;
         color: #2f5876;
       }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background: #eeeeeea1;
+        width: 100%;
+        box-shadow: 0px 6px 20px 0px #4a4a4a;
+        color: black;
+        text-align: center;
+    }
+
+  .footer_twt {
+    padding: 3px 12px;
+    float: left;
+    font-weight: bold;
+    width: 23%;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    display: inline-block;
+  }
+  .footer_gh {
+    padding: 3px 12px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    width: 23%;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 7px;
+    display: inline-block;
+ }
+
+.footer_rh {
+  padding: 3px 12px;
+  margin-right: 2%;
+  font-weight: bold;
+  width: 27%;
+  text-decoration: none;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #9471ea;
+  outline: 0;
+  text-decoration: none;
+}
