@@ -17,7 +17,7 @@ html,
 
       a:link,
       a:visited {
-        color: #000000;
+        color: #585858;
         outline: 0;
         text-decoration: none;
       }
@@ -83,7 +83,7 @@ html,
         background: #fff;
         width: 100%;
         box-shadow: 0px 6px 20px 0px #4a4a4a;
-        color: black;
+        color: #585858;
         text-align: center;
     }
 
