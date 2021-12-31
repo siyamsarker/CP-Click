@@ -58,7 +58,7 @@ html,
       .flex-container {
         display: flex;
         justify-content: space-between;
-        padding: 10px 22px;
+        padding: 10px 22px 65px 22px;
       }
 
       .flex {
