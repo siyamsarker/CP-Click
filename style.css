@@ -9,10 +9,10 @@ html,
       }
 
       h1 {
-        font-size: 22px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: bold;
         margin: 0;
-        color: #9471ea;
+        color: #4284F6;
       }
 
       a:link,
@@ -22,17 +22,13 @@ html,
         text-decoration: none;
       }
 
-      img {
-        width: 150px;
-      }
-
       .modal-header {
         align-items: center;
         border-bottom: 0.5px solid #dadada;
       }
 
       .modal-content {
-        padding: 0px 0px 4px 30px;
+        padding: 0px 0px 4px 47px;
       }
 
       .modal-icons {
@@ -42,12 +38,12 @@ html,
       }
 
       .logo {
-        padding: 16px;
+        padding: 10px;
       }
 
       .logo-icon {
         vertical-align: text-bottom;
-        margin-left: 25%;
+        margin-left: 16%;
       }
 
       .version {
@@ -58,25 +54,20 @@ html,
       .flex-container {
         display: flex;
         justify-content: space-between;
-        padding: 10px 22px 65px 22px;
+        padding: 10px 22px 50px 34px;
       }
 
       .flex {
         opacity: 1;
         transition: opacity 0.2s ease-in-out;
-        width: 120px;
       }
 
-      .flex:hover {
-        opacity: 0.4;
-      }
-
-      .flex .fa {
+     .flex .fa {
         font-size: 40px;
         color: #2f5876;
       }
 
-      .footer {
+    .footer {
         position: fixed;
         left: 0;
         bottom: 0;
@@ -124,7 +115,46 @@ html,
 }
 
 a:hover {
-  color: #9471ea;
+  color: #4284f6;
   outline: 0;
   text-decoration: none;
+}
+
+ol {
+  counter-reset: li; 
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  margin: .5em 0;
+  background: #ffef9c;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+}
+
+ol a:hover { background: #E9E4E0; }
+ol a:hover:before { transform: rotate(360deg); }
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #75c0f9;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
 }
