@@ -10,11 +10,15 @@
     },
     "action": {
         "default_title": "CP Click",
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "icons": {
+        "16": "logo/logo-16.png",
+        "48": "logo/logo-48.png",
+        "128": "logo/logo-128.png"
+    }
       },
       "permissions": [
-        "activeTab",
-        "scripting"
+        "tabs", "activeTab", "bookmarks", "browsingData", "history", "scripting"
       ],
       "background": {
         "service_worker": "background.js"
