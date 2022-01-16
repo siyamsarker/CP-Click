@@ -4,18 +4,18 @@
     "description":  "ChalkPencil.com Quick Launch",
     "version":  "1.0.0",
     "icons": {
-        "16": "logo/logo-16.png",
-        "48": "logo/logo-48.png",
-        "128": "logo/logo-128.png"
+      "128": "logo/logo-128.png",  
+      "16": "logo/logo-16.png",
+      "48": "logo/logo-48.png"
     },
     "action": {
         "default_title": "CP Click",
         "default_popup": "popup.html",
         "icons": {
+        "128": "logo/logo-128.png",
         "16": "logo/logo-16.png",
-        "48": "logo/logo-48.png",
-        "128": "logo/logo-128.png"
-    }
+        "48": "logo/logo-48.png"
+        }
       },
       "permissions": [
         "tabs", "activeTab", "bookmarks", "browsingData", "history", "scripting"
